@@ -1,0 +1,29 @@
+.layout {
+	position: relative;
+	background: white;
+	padding: 51px 0 0;
+}
+
+.layout header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 1rem 2rem;
+	background: white;
+	border-bottom: 1px solid black;
+}
+
+.layout header a {
+	padding-right: 1rem;
+}
+
+.layout main {
+	min-height: calc(100vh - 51px);
+}
+
+.layout footer {
+	padding: 1rem 2rem;
+	background: white;
+	border-top: 1px solid black;
+}

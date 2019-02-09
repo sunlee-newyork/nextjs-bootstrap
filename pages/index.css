@@ -1,0 +1,31 @@
+@import url("https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css");
+
+#nprogress {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 5px;
+	z-index: 9999;
+}
+
+body {
+	background-color: #ececec !important;
+	font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	opacity: 1;
+	transition: opacity 200ms linear;
+}
+
+a:hover {
+	opacity: .6;
+}
+
+.container {
+	padding: 2rem;
+}
