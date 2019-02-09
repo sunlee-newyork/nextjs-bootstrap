@@ -17,7 +17,7 @@ class BlogPosts extends React.Component {
 		return (
 			<div key={i} className="mb4">
 				<p><strong>{blog.title}</strong> by {blog.author}</p>
-				<p><Link href={`/blog/${blog.slug}`}>View post</Link></p>
+				<p><Link href={`/blog/${blog.slug}`}><a>View post</a></Link></p>
 			</div>
 		)
 	}
